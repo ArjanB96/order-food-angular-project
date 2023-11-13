@@ -57,3 +57,19 @@ baseline.json
 # Husky
 .husky/_
 aio/content/examples/.DS_Store
+
+# Ignore all files and directories inside the .nx/cache directory
+myapp/.nx/cache/*
+
+# Ignore all files inside the .nx/cache/cloud directory
+myapp/.nx/cache/cloud/*
+
+# Ignore specific files
+myapp/.nx/cache/verify.lock
+myapp/.nx/cache/file-map.json
+myapp/.nx/cache/run.json
+
+# Ignore all files inside the .nx/cache/terminalOutputs directory
+myapp/.nx/cache/terminalOutputs/*
+*.lock
+*.json
