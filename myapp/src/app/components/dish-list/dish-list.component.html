@@ -1,0 +1,8 @@
+<div *ngFor="let dish of dishes">
+    <img [src]="dish.imageURL" alt="{{ dish.name }}">
+    <h3>{{ dish.name }}</h3>
+    <p>Price: {{ dish.price | currency:'EUR' }}</p>
+    <!-- knop om toe te voegen aan het winkelmandje -->
+    <button (click)="addToCart(dish)">Add to Cart</button>
+  </div>
+  

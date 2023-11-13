@@ -367,16 +367,12 @@
           "hash": "6844438173040883167"
         },
         {
-          "file": ".nx/cache/d/daemon.log",
-          "hash": "6858441790722309791"
-        },
-        {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "3238786026407643275"
+          "hash": "16889282506642639982"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "5357046959650203551"
+          "hash": "15307692829378025022"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -388,7 +384,7 @@
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "4452063506440605412"
+          "hash": "11226423795064687121"
         },
         {
           "file": ".nx/cache/run.json",
@@ -424,7 +420,7 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "14175378003699876160"
+          "hash": "13264927044182992280"
         },
         {
           "file": "package.json",
@@ -482,7 +478,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "15021177266363512366"
+          "hash": "10610056805352619752"
         },
         {
           "file": "src/app/app.component.scss",
@@ -530,19 +526,25 @@
         },
         {
           "file": "src/app/components/dish-list/dish-list.component.html",
-          "hash": "3244421341483603138"
+          "hash": "7619453308092936636"
         },
         {
           "file": "src/app/components/dish-list/dish-list.component.ts",
-          "hash": "3244421341483603138"
+          "hash": "1182703621659328343",
+          "deps": [
+            "npm:@angular/core"
+          ]
         },
         {
           "file": "src/app/components/shopping-cart/shopping-cart.component.html",
-          "hash": "3244421341483603138"
+          "hash": "9490861290522943530"
         },
         {
           "file": "src/app/components/shopping-cart/shopping-cart.component.ts",
-          "hash": "3244421341483603138"
+          "hash": "12709239481187878246",
+          "deps": [
+            "npm:@angular/core"
+          ]
         },
         {
           "file": "src/app/models/dish.model.ts",
@@ -550,11 +552,17 @@
         },
         {
           "file": "src/app/services/dish.service.ts",
-          "hash": "3244421341483603138"
+          "hash": "9666638582253960209",
+          "deps": [
+            "npm:@angular/core"
+          ]
         },
         {
           "file": "src/app/services/shopping-cart.service.ts",
-          "hash": "3244421341483603138"
+          "hash": "12319447171667979072",
+          "deps": [
+            "npm:@angular/core"
+          ]
         },
         {
           "file": "src/assets/.gitkeep",
@@ -597,6 +605,14 @@
         {
           "file": "tsconfig.spec.json",
           "hash": "15575553540147145788"
+        },
+        {
+          "file": "src/app/app.module.ts",
+          "hash": "12115891762754150876",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser"
+          ]
         }
       ]
     }
