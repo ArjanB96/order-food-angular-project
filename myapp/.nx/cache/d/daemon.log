@@ -193,3 +193,37 @@
 [NX Daemon Server] - 2023-11-13T21:42:47.520Z - Time taken for 'hash changed files from watcher' 0.27789998054504395ms
 [NX Daemon Server] - 2023-11-13T21:42:49.173Z - Closed a connection. Number of open connections: 2
 [NX Daemon Server] - 2023-11-13T21:42:49.174Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T21:45:09.293Z - Started listening on: \\.\pipe\nx\C:\Users\Arjan\AppData\Local\Temp\825bc63a3c836c7b2505\d.sock
+[NX Daemon Server] - 2023-11-13T21:45:09.296Z - [WATCHER]: Subscribed to changes within: c:\Users\Arjan\Documents\GitHub\order-food-angular-project (native)
+[NX Daemon Server] - 2023-11-13T21:45:09.299Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T21:45:09.301Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-13T21:45:09.301Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T21:45:09.302Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-13T21:45:09.721Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-13T21:45:09.721Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-13T21:45:09.721Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-13T21:45:09.823Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-13T21:45:09.825Z - Time taken for 'total for creating and serializing project graph' 521.0877999067307ms
+[NX Daemon Server] - 2023-11-13T21:45:09.825Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-13T21:45:09.825Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 521. Response time: 2.
+[NX Daemon Server] - 2023-11-13T21:45:09.828Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-13T21:45:09.829Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T21:45:09.829Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-13T21:45:09.829Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T21:45:09.832Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-11-13T21:45:09.832Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-11-13T21:45:09.832Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-11-13T21:46:15.510Z - [WATCHER]: Nieuwe map was deleted
+[NX Daemon Server] - 2023-11-13T21:46:15.510Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T21:46:15.627Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-13T21:46:15.627Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-13T21:46:15.627Z - [REQUEST]: Nieuwe map
+[NX Daemon Server] - 2023-11-13T21:46:15.658Z - Time taken for 'hash changed files from watcher' 0.149399995803833ms
+[NX Daemon Server] - 2023-11-13T21:46:17.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T21:46:17.177Z - [WATCHER]: .angular was deleted
+[NX Daemon Server] - 2023-11-13T21:46:17.386Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-13T21:46:17.386Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-13T21:46:17.386Z - [REQUEST]: .angular
+[NX Daemon Server] - 2023-11-13T21:46:17.413Z - Time taken for 'hash changed files from watcher' 0.10150003433227539ms
+[NX Daemon Server] - 2023-11-13T21:46:18.197Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T21:46:18.198Z - [WATCHER]: Stopping the watcher for c:\Users\Arjan\Documents\GitHub\order-food-angular-project (sources)

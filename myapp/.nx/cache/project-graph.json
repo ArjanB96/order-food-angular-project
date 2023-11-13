@@ -10941,6 +10941,26 @@
     "myapp": [
       {
         "source": "myapp",
+        "target": "npm:buffer",
+        "type": "static"
+      },
+      {
+        "source": "myapp",
+        "target": "npm:events",
+        "type": "static"
+      },
+      {
+        "source": "myapp",
+        "target": "npm:events",
+        "type": "dynamic"
+      },
+      {
+        "source": "myapp",
+        "target": "npm:string_decoder",
+        "type": "dynamic"
+      },
+      {
+        "source": "myapp",
         "target": "npm:@angular/animations",
         "type": "static"
       },
