@@ -1,14 +1,37 @@
 import { Injectable } from '@angular/core';
 import { Food } from '../../shared/models/Food';
+import { Tag } from '../../shared/models/Tag';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class FoodService {
 
   constructor() { }
 
-  getAll():Food[]{
+  getAllFoodsBySearchTerm(searchTerm:string) :Food[]{
+    return  this.getAll().filter(food =>
+      food.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  }
+  getAllTags(): Tag[] {
+    return [
+      { name: 'Alles', count: 14 },
+      { name: 'Fast Food', count: 4 },
+      { name: 'Pizza', count: 2 },
+      { name: 'Lunch', count: 3 },
+      { name: 'Snack', count: 2 },
+      { name: 'Hamburger', count: 1 },
+      { name: 'Soep', count: 1 },
+    ];
+  }
+
+  getAllFoodsByTag(tag: string): Food[] {
+    return tag == "Alles" ?
+      this.getAll() :
+      this.getAll().filter(food => food.tags?.includes(tag));
+  }
+
+  getAll(): Food[] {
     return [
       {
         id: 1,
@@ -18,7 +41,7 @@ export class FoodService {
         favorite: false,
         origins: ['Turkije'],
         imageUrl: '/assets/images/borek.jpg',
-        tags: ['Lunch'],
+        tags: ['Lunch', 'Snack'],
       },
       {
         id: 2,
@@ -48,7 +71,7 @@ export class FoodService {
         favorite: true,
         origins: ['Italië'],
         imageUrl: '/assets/images/pizza salami.jpg',
-        tags: ['Italiaanse pizza'],
+        tags: ['Italiaanse pizza', 'Pizza'],
       },
       {
         id: 5,
@@ -58,7 +81,7 @@ export class FoodService {
         favorite: false,
         origins: ['Turkije'],
         imageUrl: '/assets/images/turkse pizza.jpg',
-        tags: ['Dinner', 'Lunch'],
+        tags: ['Dinner', 'Lunch', 'Pizza'],
       },
       {
         id: 6,
@@ -78,7 +101,7 @@ export class FoodService {
         favorite: false,
         origins: ['Amerika'],
         imageUrl: '/assets/images/hamburger.jpg',
-        tags: ['FastFood'],
+        tags: ['Fast Food', 'Hamburger'],
       },
     ]
   }
