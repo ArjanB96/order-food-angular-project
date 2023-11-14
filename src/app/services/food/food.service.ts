@@ -38,7 +38,7 @@ export class FoodService {
         favorite: false,
         origins: ['Wereldwijd'],
         imageUrl: '/assets/images/pita shoarma.jpg',
-        tags: ['FastFood'],
+        tags: ['Lunch', 'Dinner'],
       },
       {
         id: 4,
@@ -48,7 +48,7 @@ export class FoodService {
         favorite: true,
         origins: ['Italië'],
         imageUrl: '/assets/images/pizza salami.jpg',
-        tags: ['FastFood'],
+        tags: ['Italiaanse pizza'],
       },
       {
         id: 5,
@@ -59,6 +59,26 @@ export class FoodService {
         origins: ['Turkije'],
         imageUrl: '/assets/images/turkse pizza.jpg',
         tags: ['Dinner', 'Lunch'],
+      },
+      {
+        id: 6,
+        name: 'Saoto Soep',
+        price: 8,
+        cookTime: '40-50',
+        favorite: false,
+        origins: ['Suriname'],
+        imageUrl: '/assets/images/saoto-soep.jpg',
+        tags: ['Soep', 'Dinner'],
+      },
+      {
+        id: 7,
+        name: 'Hamburger',
+        price: 11,
+        cookTime: '40-50',
+        favorite: false,
+        origins: ['Amerika'],
+        imageUrl: '/assets/images/hamburger.jpg',
+        tags: ['FastFood'],
       },
     ]
   }

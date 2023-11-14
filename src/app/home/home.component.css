@@ -1,4 +1,4 @@
-ul{
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,8 +7,8 @@ ul{
     padding: 0;
 }
 
-ul li a{
-    height: 20rem;
+ul li a {
+    height: 25rem;
     width: 20rem;
     border: 1px solid whitesmoke;
     border-radius: 1rem;
@@ -18,7 +18,14 @@ ul li a{
     overflow: hidden;
     color: #e72929;
 }
-li a:hover{
+
+li a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+li a:hover {
     opacity: 0.9;
     cursor: pointer;
 }

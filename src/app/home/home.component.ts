@@ -17,7 +17,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      console.log('Search Terms:', params["searchTerm"]);
       if (params["searchTerm"])
         this.foods = this.foodService.getAll().filter(food =>
           food.name.toLowerCase().includes((params["searchTerm"]).toLowerCase()));
